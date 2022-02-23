@@ -1,0 +1,13 @@
+Game Rules:
+-The snake starts at the center of the board, moving north (upward).
+-The snake moves at a constant speed.
+-The snake moves only north, south, east, or west.
+-The snake "moves" by adding a square to its head and simultaneously deleting a square from the tip of its tail.
+-"Food" appear at random locations, and persist for a random amount of time.
+-There is always exactly one apple visible at any given time.
+-When the snake "eats" food, it gets longer.
+-When the snake gets longer, say by n squares, it does so by not deleting squares from its tail for the next n moves.
+-The game continues until the snake "dies".
+-A snake dies by either (1) running into the edge of the board, or (2) by running into its own tail.
+-The final score is based on the number of apples eaten by the snake.
+
